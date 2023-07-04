@@ -1,6 +1,8 @@
-# CursoWebApiApp
+# Curso de WebApi com C# e Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.8.
+Esse é um projeto do curso do Vinícius de Andrade na Udemy.
+
+No momento só terá a parte do Back-End e futuramente estudarei melhor Front-End e terminarei a parte do Angular.
 
 ## Development server
 
