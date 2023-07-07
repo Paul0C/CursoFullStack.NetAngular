@@ -6,6 +6,7 @@ using AutoMapper;
 using CursoWebApi.Application.Dtos;
 using CursoWebApi.Domain;
 using CursoWebApi.Domain.Identity;
+using CursoWebApi.Persistence.Models;
 
 namespace CursoWebApi.Application.Helpers
 {
@@ -16,7 +17,7 @@ namespace CursoWebApi.Application.Helpers
             CreateMap<Lote, LoteDto>().ReverseMap();
             CreateMap<RedeSocial, RedeSocialDto>().ReverseMap();
             CreateMap<Palestrante, PalestranteDto>().ReverseMap();
-            
+
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<User, UserLoginDto>().ReverseMap();
             CreateMap<User, UserUpdateDto>().ReverseMap();
